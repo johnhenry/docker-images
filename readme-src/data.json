@@ -1,0 +1,18 @@
+{
+  "fullname":"John Henry",
+  "dockerhubuser":"johnhenry",
+  "githubuser":"johnhenry",
+  "gitlabuser":"johnhenry",
+  "scripts":[
+    {
+      "name":"readme-generator",
+      "description":"generate a readme using an ejs template",
+      "actions":[
+        ["reads","PROJECT/readme-src/data.json"],
+        ["reads", "PROJECT/readme-src/readme.md"],
+        ["writes","PROJECT/readme.md"]
+      ],
+      "links":[]
+    }
+  ]
+}
